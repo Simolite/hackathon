@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Aissa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h2 class="logo">Aissa</h2>
+        <ul>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-btn">🌙</button>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <h1>Salut, je suis <span>Aissa</span></h1>
+        <p>Développeur Web Junior</p>
+        <button onclick="scrollToSection('contact')">Me contacter</button>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>
+            Passionné par le développement web, j’aime créer des sites modernes,
+            performants et faciles à utiliser.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Compétences</h2>
+        <div id="skills-container"></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projets</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Projet 1</h3>
+                <p>Site web HTML / CSS</p>
+            </div>
+            <div class="project-card">
+                <h3>Projet 2</h3>
+                <p>Application JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email : aissa@email.com</p>
+        <button onclick="contactAlert()">Envoyer un message</button>
+    </section>
+
+    <footer>
+        <p id="footer-text"></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
