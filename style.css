@@ -2,19 +2,31 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #000000;
+}
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 header {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 1rem;
+    position: relative;
+    z-index: 1;
 }
 .portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    gap: 2rem;
     padding: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    z-index: 1;
 }
 .dev {
     background-color: white;
@@ -22,21 +34,22 @@ header {
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 300px;
+    width: 250px;
+    transform: translateY(0px);
+    transition: all 0.3s ease;
 }
-.dev img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-}
+
 .dev h2 {
-    margin-top: 0;
+    text-align: center;
 }
-.dev ul {
-    list-style-type: none;
-    padding: 0;
+
+.dev:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
 }
-.dev li {
-    margin-bottom: 0.5rem;
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
