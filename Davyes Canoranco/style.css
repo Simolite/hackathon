@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* SECTIONS */
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #222;
+}
+
+/* COMPÉTENCES */
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    background: #eee;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+
+/* PROJETS */
+.project {
+    border-left: 4px solid #222;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+    margin-top: 20px;
+}
