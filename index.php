@@ -1,10 +1,10 @@
 <?php 
     $devs = [
         ["Arrach Mohammed ","https://arrachmohammed.dev"],
-        ["Aissa Zahoum","linkedin.com"],
-        ["Markhi Mohammed","github.com"],
-        ["junior","twitter.com"],
-        ["Devis","instagram.com"]];
+        ["Aissa Zahoum","/aissaZahoum/index.html"],
+        ["Markhi Mohammed","/mohamedMarkhi/index.html"],
+        ["Junior Lopes","/JuniorLopes/index.html"],
+        ["Davyes Canoranco","/DavyesCanoranco/index.html"]];
 
 ?>
 <!DOCTYPE html>
